@@ -1,0 +1,291 @@
+
+/* content */
+
+.content {
+    background: #f0f0f0;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+/* content > dlMode */
+
+.content > #dlMode {
+    position: fixed;
+    z-index: 10000;
+    left: -50px;
+    top:10px;
+    width: 100px;
+    height: 45px;
+    border-radius: 0 15px 15px 0;
+    border: 3px dashed black;
+    background: white 100% 50% no-repeat;
+    background-image: url('../img/dark.png');
+    background-size: 40px;
+    transition: 0.5s;
+}
+
+.content > #dlMode:hover {
+    left: -4px;
+    transition: 0.5s;
+}
+
+/* content > sideleft */
+
+.content > .sideLeft{
+    transition: 0.3s;
+    height: 379.5px;
+    width: 12.49837239583333%;
+    background: white; 
+    color: #333;
+    padding-top: 5.5px;
+    border-radius: 0 0 6px 6px;
+}
+.content > .sideLeft > .items{
+    padding: 5.5px 0 5.5px 17px;
+    font-size: 12px;
+}
+.content > .sideLeft > .items:hover{
+    color: #e33124;
+    background: rgb(239, 239, 239);
+}
+.content > .sideLeft > .red{
+    color: #e33124;
+}
+.content > .same {
+    height: 375px;
+    margin-top: 10px;
+}
+
+/* content > slider */
+
+.content  > .slider {
+    position: relative;
+    width: 48.17708333333333%;
+    overflow: hidden;
+    margin: 10px 7px 0 7px;
+    border-radius: 7px;
+}
+.content  > .slider > .btn {
+    width: 4.054054054054054%;
+    height: 54px;
+    border-radius: 0 4px 4px 0;
+    background: rgba(33, 33, 33, 0.279) url("../img/icons8-left-32.png") no-repeat 50% 50%;
+    position: relative;
+    z-index: 10000;
+    top: -220px;
+    background-size: 30px;
+    
+}
+.content  > .slider > .right {
+    left: 708px;
+    top: -270px;
+    transform: rotate(180deg);
+}
+.content  > .slider > .gal {
+    width: 600%;
+	height:100%;
+	transition: 0.3s;
+	position:relative;
+	left:0;
+}
+.content  > .slider > .gal > .slide {
+    width: 16.66666666666667%;
+    float: left;
+	height: 100%;
+}
+.content > .slider > .gal > .slide > img {
+	width: 100%;
+	height: 100%;
+}
+.slider > #but {
+	margin:0;
+	padding:0;
+	list-style:none;
+	justify-content:center;
+	gap:5px;
+	position:relative;
+	top:-130px;
+    display: flex;
+}
+.slider > #but > li.sel {
+	background: #e33124;
+	width:30px;
+}
+.slider > #but > li:hover {
+    background:#e33124;
+}
+.slider > #but > li{
+	cursor:pointer;
+	width:5px;
+	height:5px;
+	background:white;
+	border-radius:50px;
+}
+
+/* content > sideRight */
+
+.content > .sideRight {
+    width: 15.75358072916667%;
+}
+.content > .sideRight > .box {
+    width: 100%;
+    border-radius: 8px;
+}
+.content > .sideRight > .register {
+    background: #DE2E2B;
+    margin-bottom: 7px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.content > .sideRight > .register > div {
+    width: 82.65316664944726%;
+    height: 16%;
+    background: white;
+    border-radius: 3px;
+    color: #CB2027;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+}
+.content > .sideRight > .register > .signIn1 {
+    margin: 20px 20.9875px 10px 20.9875px;
+}
+.content > .sideRight > .register > .signIn2 {
+    margin-left: 20.9875px;
+    background: #FFCFCA;
+}
+.content > .sideRight > .suprise {
+    background: url("https://litb-cgis.rightinthebox.com/imagegy/202101/9b24f7ffeccf44ee8b8da89bf70e7baa1.png") no-repeat 50% 50%;
+    background-size: 245px;
+    height: 195px;
+}
+
+/* content > title */
+
+.content > .title {
+    line-height: 46px;
+    width: 77.47395833333333%;
+    font-size: 18px;
+    padding-left: 30px;
+    background: url("../img/Untitled.png") no-repeat -1.5% 50%;
+    background-size: 75px;
+    font-weight: 900;
+}
+
+/* content > offer */
+
+.content > .offer {
+    height: 290px;
+    width: 77.47395833333333%;
+}
+.content > .offer > img {
+    border-radius: 4px;
+    width: 101%;
+    height: 100%;
+}
+
+/* content > recomended */
+
+.content > .recommended {
+    width: 77%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content > recomended > products details */
+
+span{
+    font-size: 14px;
+    margin: 6px;
+}
+.price {
+    font-weight: 800;
+    font-size: 14px;
+}
+.rate {
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    top: 325px;
+    right: 100px;
+    background: url("../img/icons8-star-32.png") 1% 50%;
+    background-size: 15px;
+    width: 40%;
+    text-align: right;
+}
+.heart{
+    width: 10.52631578947368%;
+    height: 5.599370630741105%;
+    background: url("../img/icons8-heart-50.png") no-repeat 50% 50%;
+    background-size: 17px;
+    position: absolute;
+    top: 325px;
+    left: 150px;
+}
+.heart:hover{
+    background: url("../img/icons8-heart-50\(3\).png") no-repeat 50% 50%;
+    background-size: 17px;
+}
+.viewMore {
+    width: 6.510416666666667%;
+    height: 30px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 28px;
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* content > recomended > minislider responsive */
+
+.content > .recommended > .minislider{
+    position: relative;
+    width: 100%;
+	overflow:hidden;
+	direction:ltr;
+}
+.content > .recommended > .left{
+    width: 1.680672268907563%;
+    height: 50px;
+    background: #E33124 url("../img/icons8-left-64(1).png") no-repeat 50% 50%;
+    background-size: 35px;
+    position: relative;
+    display: none;
+}
+.content > .recommended > .right{
+    width: 1.680672268907563%;
+    background: #E33124 url("../img/icons8-left-64.png") no-repeat 50% 50%;
+    background-size: 35px;
+    height: 50px;
+    border: 1px solid red;
+    position: relative;
+    display: none;
+}
+.content > .recommended > .minislider > .gal2{
+	transition:0.5s;
+	position:relative;
+	left:0%;
+	display:flex;
+	width: 100%;
+    flex-flow: wrap;
+	justify-content: flex-start;
+    flex-shrink: 0;
+    gap: 5px;
+}
+.content > .recommended > .minislider > .gal2 > .products{
+    width: 16%;
+    height: 357.183px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    background: white;
+    position: relative;
+}
+.content > .recommended > .minislider > .gal2 > .products > img {
+    width: 100%;
+    height: 71.16324125168331%;
+}

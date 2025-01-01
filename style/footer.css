@@ -1,0 +1,210 @@
+
+/* footer */
+
+.footer {
+    background: #e6e6e6;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+/* footer > items responsive */
+
+.footer > .items {
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #e0e0e08a;
+    color: rgb(147, 147, 147);
+    font-family: arial;
+    line-height: 44px;
+    background: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 70%;
+    display: none;
+}
+.footer > .items > div {
+    width: 200px;
+    height: 90%;
+    cursor: pointer;
+    direction: rtl;
+}
+.footer > .items > div > #menu1 {
+    position: fixed;
+    width: 50%;
+    background: white;
+    margin: 0;
+    z-index: 100000;
+    top: 0;
+    height: 100%;
+    transition: 0.5s;
+    direction: ltr;
+    right: 1000px;
+}
+.footer > .items > div > ul > li {
+    list-style: none;
+    color: rgb(155, 155, 155);
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #ccc;
+}
+
+/* footer > box */
+
+.footer > .box {
+    justify-content: center;
+    width: 78.125%;
+    border-bottom: 1px solid #ccc;
+}
+.footer > .box > .top {
+    width: 100%;
+    height: 31px;
+    background: url("../img/LightInTheBox-Worldwide\ Shipping\ _\ Trendy\ Clothing\ &\ Fashion\ —\ Mozilla\ Firefox\ 03_04_2024\ 21_33_17.png") no-repeat 50% 65%;
+    background-size: 750px;
+    margin-top: 30px;
+}
+.footer > .box > .items {
+    margin: 30px 0 30px 100px;
+    width: 12.66666666666667%;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 85px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+.footer > .box > .it1 {
+    background: url("../img/icons8-bag-80.png") no-repeat 50% -25%;
+    background-size: 45px;
+}
+.footer > .box > .it2 {
+    background: url("../img/icons8-trade-50.png") no-repeat 50% -0%;
+    background-size: 40px;
+}
+.footer > .box > .it3 {
+    background: url("../img/icons8-safe-32.png") no-repeat 50% -25%;
+    background-size: 40px;
+}
+.footer > .box > .it4 {
+    background: url("../img/icons8-delivery-50.png") no-repeat 50% -20%;
+    background-size: 40px;
+}
+.footer > .box > .it5 {
+    background: url("../img/icons8-message-50.png") no-repeat 50% -10%;
+    background-size: 38px;
+}
+.footer > .box > .ex {
+    margin-left: 0;
+}
+.footer > .box > .items > .bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    position: absolute;
+    top: 18px;
+    margin: 0;
+}
+.footer > .bx2 {
+    justify-content: left;
+}
+.footer > .box > .top2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+}
+.footer > .bx2 > .tp1 {
+    width: 33.33333333333333%;
+}
+.footer > .box > .top2 > input {
+    width: 57.5%;
+    height: 30px;
+    outline: 0 none;
+    margin-top: 10px;
+}
+.footer > .box > .top2 > .box {
+    margin-top: 10px;
+    width: 25%;
+    background: red;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+}
+.footer > .bx2 > .tp2 {
+    width: 29.16666666666667%;
+}
+.footer > .box > .top2 > .socialMedia {
+    width: 71.42857142857143%;
+    height: 30px;
+    margin-top: 10px;
+}
+.footer > .box > .top2 > .socialMedia > .apps {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.footer > .box > .tp3 {
+    width: 230px;
+    gap: 10px;
+}
+.footer > .box > .tp3 > div > .store {
+    width: 105px;
+    height: 35px;
+}
+.footer > .box > .tp3 > div {
+    width: 230px;
+    justify-content: left;
+    gap: 15px;
+}
+.footer > .box > .tp3 > div > .store > img {
+    height: 110%;
+    width: 103%;
+}
+.footer > .bx4 {
+    height: 80px;
+    justify-content: left;
+}
+.footer > .bx4 > .find {
+    width: 41.66666666666667%;
+    gap: 20px;
+    justify-content: left;
+}
+.footer > .bx4 > .find > .alphabet {
+    color: gray;
+    font-size: 13px;
+    margin: 0 0 15px 0;
+}
+.footer > .bx4 > .find > div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.footer > .bx5 {
+    background: url("../img/payment.png") no-repeat 50% 40%;
+    background-size: 700px;
+    height: 120px;
+}
+.footer > .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #333;
+    color: rgb(150, 149, 149);
+    height: 40px;
+    width: 100%;
+}
+.footer > .bx2 { 
+    gap: 100px;
+}
+.footer > .box > .items > .position {
+    left: 12px;
+}
+.footer > .box > .items > .position2 {
+    left: 28px;
+}
+.footer > .box > .items > .position3 {
+    left: 20px;
+}
